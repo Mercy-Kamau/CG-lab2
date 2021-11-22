@@ -126,11 +126,10 @@ void display() {
 
 	}
 	glEnd();
-	glFlush();
 
 	//circle
 
-	/*GLfloat k = 0.55f;
+	GLfloat k = 0.55f;
 	GLfloat m = 0.75f;
 	GLfloat rad = 0.2f;
 	glBegin(GL_TRIANGLE_FAN);
